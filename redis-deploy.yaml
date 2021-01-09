@@ -17,7 +17,7 @@ spec:
       labels:
         name: redis-pod
         app: demo-voting-app
-      spec:
+    spec:
       containers:
         - name: redis
           image: redis
