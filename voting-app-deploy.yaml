@@ -17,7 +17,7 @@ spec:
       labels:
         name: voting-app-pod
         app: demo-voting-app
-      spec:
+    spec:
       containers:
         - name: voting-app
           image: kodekloud/examplevotingapp_vote:v1
